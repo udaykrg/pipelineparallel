@@ -21,7 +21,7 @@ pipeline {
              '''
              }
     }
-    stage ('deploy') {
+    stage ('deploy2') {
     agent any
        steps {
           sh '''
