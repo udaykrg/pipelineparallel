@@ -12,7 +12,7 @@ pipeline {
     }
     stage ("my deploy stage"){
     parallel (
-    stage ('deploy') {
+    stage ('deploy1') {
     agent { label 'slave-02' }
        steps {
           sh '''
